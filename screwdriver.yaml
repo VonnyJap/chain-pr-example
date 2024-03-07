@@ -1,14 +1,11 @@
 shared:
   image: node:18
 
-annotations:
-  screwdriver.cd/chainPR: true
-
 jobs:
   first-job:
     requires: [~pr, ~commit]
     steps:
-      - echo: echo "this is first job."
+      - echo: echo "this is first job. Hello World 123!"
   second-job:
     requires: [first-job]
     steps:
