@@ -1,4 +1,4 @@
-# Chain PR Example
+## Chain PR Example
 
 To use chain PR feature in Screwdriver.cd, set `true` in pipeline-level annotation `screwdriver.cd/chainPR`.  
 Then, subsequent jobs in PR event will be chained according to the workflow in PR.
