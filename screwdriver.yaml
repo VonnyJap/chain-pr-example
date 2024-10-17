@@ -1,5 +1,5 @@
 shared:
-  image: boom:18
+  image: bang:18
 
 annotations:
   screwdriver.cd/chainPR: true
